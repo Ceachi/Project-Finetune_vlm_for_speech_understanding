@@ -221,3 +221,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Practice notebooks: generated files (checkpoints, audio)
+practice/**/outputs/

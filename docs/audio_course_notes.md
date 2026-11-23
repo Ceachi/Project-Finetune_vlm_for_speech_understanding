@@ -30,6 +30,8 @@ Pașii 1–4 sunt în interiorul **data collator**-ului; pasul 5 e **modelul**.
 
 ### Cum arată datele în fiecare etapă (din screenshot-urile din diagramă)
 
+> Dataset-ul `speechbrain/LargeScaleASR` a fost redenumit [`speechbrain/LoquaciousSet`](https://huggingface.co/datasets/speechbrain/LoquaciousSet) (URL-ul vechi redirecționează). Are configurațiile `small` / `medium` / `large` / `clean`, iar `small/` are 72 de shard-uri parquet.
+
 **Eșantion brut din `speechbrain/LargeScaleASR`:**
 ```python
 {'ID': '20180911-0900-PLENARY-en_20180911-20:17:50_2',
