@@ -8,7 +8,7 @@
 
 Tot aici înveți cum salvăm și cum reluăm checkpoint-uri.
 **În notebook:** §1 Install Dependencies (inclusiv „TASK: Reinstall transformers and qwen-vl-utils from your own forks”) și §2 HF Login.
-**Pașii concreți:** [SETUP.md](SETUP.md)
+**Pașii concreți:** [SETUP.md](SETUP.md) (comenzile, în ordine) · [COLAB.md](COLAB.md) (sesiuni Colab, checkpoint-uri, costuri)
 
 ## De citit
 
@@ -27,9 +27,7 @@ Tot aici înveți cum salvăm și cum reluăm checkpoint-uri.
 
 ## De exersat
 
-**Caietul cu exerciții:** [practice/00_setup/exercises.ipynb](../../practice/00_setup/exercises.ipynb). Conține exercițiul de checkpoint de mai jos, pas cu pas, cu verificări.
-
-1. Fă pașii 1–4 din [SETUP.md](SETUP.md): Hugging Face, Colab, W&B, fork-uri.
+1. Rulezi pașii 1–7 din [SETUP.md](SETUP.md), secțiunea „Acum, pe Mac”.
 2. **Test Colab:**
    - deschide un notebook gol, pornește un server nou cu L4 și rulează `!nvidia-smi`;
    - închide serverul cu `Colab: Remove Server`;

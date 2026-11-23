@@ -1,6 +1,6 @@
 # NN · <Numele componentei>
 
-**Status:** 📝 draft · **Teorie:** [docs/NN_...](../docs/) · **Exercițiu:** [practice/NN_...](../practice/) · **Notebook:** <secțiunea / TASK-ul>
+**Status:** 📝 draft · **Teorie:** [docs/NN_...](../docs/) · **Practică:** [docs/NN_.../practice](../docs/) · **Notebook:** <secțiunea / TASK-ul>
 
 ## Context
 De ce avem nevoie de componenta asta și unde se încadrează în [diagramă](../docs/VLA.png). 2–3 propoziții.

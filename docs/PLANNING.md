@@ -6,7 +6,7 @@
 
 1. Deschizi `READING.md` din folderul etapei.
 2. Citești resursele marcate **Obligatoriu**. Cele **Opțional** sunt pentru aprofundare.
-3. Faci exercițiile de la **De exersat** în caietul etapei din [`practice/`](../practice/README.md). Sunt mici, separate de proiect, și au verificări automate.
+3. Rulezi ghidurile din folderul `practice/` al etapei, de exemplu [`01_audio_data/practice/`](01_audio_data/practice/). Fiecare are teorie pe scurt, codul din curs și exerciții cu `# TODO`, cu soluția dedesubt.
 4. Răspunzi la întrebările de la **Verifică-te**. Le putem discuta împreună.
 5. Scriem împreună spec-ul componentei în [`specs/`](../specs/README.md) (requirements, design, criterii de acceptare). Abia apoi implementăm TASK-ul din notebook.
 6. Bifezi progresul de mai jos.
@@ -48,15 +48,15 @@ Template-ul mentorului pare construit pe baza acestui cookbook: [Fine-tuning a V
 ## Unde rulăm și cât costă
 
 - **Mac (gratuit):** etapele 00–05.
-- **Colab Pay-As-You-Go din VSCode:** etapele 06–09. Pornim cu un pachet de 100 de unități la $9.99, plătit dinainte, deci nu se poate depăși.
-  - L4 costă ~$0,17/h, A100 40 GB ~$0,53/h. Sunt rate măsurate de alți utilizatori; Google nu le publică.
-  - Pentru faza de studiu și teste, pachetul ar trebui să ajungă cu marjă.
+- **Colab din VSCode:** etapele 06–09. Unitățile vin din abonamentul **Google AI Pro**, pe care îl ai deja: 600 de compute units la 2026-11-23. Nu cumpărăm nimic în plus.
+  - Consum orientativ: L4 ~1,7 unități/oră, A100 40 GB ~5,3 unități/oră. Sunt rate măsurate de alți utilizatori; Google nu le publică.
+  - 600 de unități înseamnă ~350 h pe L4 sau ~110 h pe A100, mult peste cât ne trebuie.
 - **Rulări lungi cu laptopul închis (opțional, mai târziu):** Runpod cu credite preplătite sau PC-ul cu 3090. Training-ul rulează ca script în `tmux`.
-- Checkpoint-urile se salvează pe HF Hub, deci un training întrerupt se poate relua. Detalii în [00_setup/SETUP.md](00_setup/SETUP.md#6-checkpoint-uri-cum-salvăm-și-cum-reluăm).
+- Checkpoint-urile se salvează pe HF Hub, deci un training întrerupt se poate relua. Detalii în [00_setup/COLAB.md](00_setup/COLAB.md#checkpoint-uri-cum-salvăm-și-cum-reluăm).
 
 ## Primul pas concret
 
-**Setup:** urmează [00_setup/SETUP.md](00_setup/SETUP.md): Hugging Face, Colab în VSCode, W&B, fork-uri, checkpoint-uri.
+**Setup:** rulezi comenzile din [00_setup/SETUP.md](00_setup/SETUP.md), în ordine.
 
 Lucrăm într-o **copie** a notebook-ului (ex. `notebooks/speech_vlm.ipynb`), ca template-ul mentorului să rămână neatins.
 

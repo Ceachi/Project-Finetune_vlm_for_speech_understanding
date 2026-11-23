@@ -7,7 +7,7 @@ Specs-urile sunt și **memoria proiectului**. [PROJECT.md](PROJECT.md) ține con
 ## Fluxul pentru fiecare componentă
 
 1. **Teorie:** `docs/NN_.../READING.md`
-2. **Exercițiu:** `practice/NN_.../exercises.ipynb`
+2. **Practică:** ghidurile din `docs/NN_.../practice/`
 3. **Spec draft:** copiem [_TEMPLATE.md](_TEMPLATE.md) în `NN_nume.md` și completăm împreună:
    - requirements, luate din TASK-ul mentorului;
    - interfața;

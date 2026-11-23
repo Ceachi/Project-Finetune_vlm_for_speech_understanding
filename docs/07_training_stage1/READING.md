@@ -19,7 +19,7 @@
 | 9 | [Transformers · Data collator](https://huggingface.co/docs/transformers/main_classes/data_collator) | collator-ele existente | Referință |
 | 10 | [Accelerate · Gradient accumulation](https://huggingface.co/docs/accelerate/usage_guides/gradient_accumulation) | batch efectiv mai mare cu memorie puțină | Opțional |
 | 11 | [Transformers · Instantiate a big model](https://huggingface.co/docs/transformers/main/en/big_models) | checkpoint-uri sharded (pentru întrebarea mentorului) | Opțional |
-| 12 | [Transformers · Trainer](https://huggingface.co/docs/transformers/main_classes/trainer) | `save_steps`, `hub_strategy`, `resume_from_checkpoint` (vezi și [SETUP.md §6](../00_setup/SETUP.md#6-checkpoint-uri-cum-salvăm-și-cum-reluăm)) | Obligatoriu |
+| 12 | [Transformers · Trainer](https://huggingface.co/docs/transformers/main_classes/trainer) | `save_steps`, `hub_strategy`, `resume_from_checkpoint` (vezi și [COLAB.md](../00_setup/COLAB.md#checkpoint-uri-cum-salvăm-și-cum-reluăm)) | Obligatoriu |
 
 ## De exersat
 

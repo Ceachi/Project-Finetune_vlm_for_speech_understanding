@@ -1,6 +1,6 @@
 # 01 · Dataset: streaming, un eșantion, vizualizare
 
-**Status:** 📝 draft (de discutat împreună) · **Teorie:** [docs/01_audio_data](../docs/01_audio_data/READING.md) · **Exercițiu:** [practice/01_audio_data](../practice/01_audio_data/exercises.ipynb) · **Notebook:** §2 Understand Dataset
+**Status:** 📝 draft (de discutat împreună) · **Teorie:** [docs/01_audio_data](../docs/01_audio_data/READING.md) · **Practică:** [docs/01_audio_data/practice](../docs/01_audio_data/practice/) · **Notebook:** §2 Understand Dataset
 
 ## Context
 Primul contact cu datele proiectului. Ce învățăm aici despre format, mai ales despre **bytes WAV**, refolosim direct în `fetch_audio` (pasul 3 din [diagramă](../docs/VLA.png)) și în data collator.
